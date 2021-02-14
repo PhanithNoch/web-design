@@ -1,0 +1,140 @@
+html{
+    font-family: 'Battambang', cursive;
+}
+body
+{
+    margin: 0;
+}
+header{
+    width: 70%;
+    margin: auto;
+}
+header img {
+    width: 10%;
+    float: left;
+}
+
+.container
+{
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+.nav-bar
+{
+    width: 100%;
+    background-color: orange;
+    float: left;
+}
+.nav-container
+{
+    margin: auto;
+    width: 70%;
+}
+.nav-home-icon{
+    width: 3%;
+    float: left;
+}
+.nav-home-icon i{
+    float: left;
+    margin-top: 25px;
+}
+.nav-menu{
+    width: 90%;
+    float: left;
+}
+.nav-menu  ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+}
+.nav-menu ul li a 
+{
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding: 20px;
+    color: white;
+  
+}
+
+.nav-menu ul li a:hover
+{
+
+    background-color: yellowgreen;
+    transition:  0.5s;
+}
+
+
+/* content  */
+
+.box-content
+{
+    width: 70%;
+    background-color: gold;
+    height: 400px;
+    margin: auto;
+}
+
+.box-left
+{
+    width: 50%;
+    height: 100%;
+    background-color: gray;
+    float: left;
+   
+}
+.box-left  img {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.box-right
+{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(88, 48, 48); 
+    float: left;
+}
+
+.box-right .img-box 
+{
+    width: 50%;
+    height: 200px;
+    background-color: gray;
+    float: left;
+}
+
+.box-right .img-box img
+{
+width: 100%;
+height: 100%;
+}
+
+.header-content {
+    width: 70%;
+    margin: auto;
+   
+    
+}
+.header-menu
+{
+    width: 75%;
+    background-color: #f85701;
+    float: left;
+}
+
+.menu-left {
+    width: 50%;
+    float: left;
+
+}
+
+.menu-right{
+    width: 50%;
+    float: left;
+}
